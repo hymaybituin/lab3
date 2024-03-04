@@ -49,8 +49,8 @@
 <script src="script.js"></script>
 
 <?php
-echo '<img src="images/profile.png" alt="Profile">';
-echo '<img src="images/basketball.png" alt="Basketball Image">';
-echo '<link rel="stylesheet" type="text/css" href="css/style.css">';
-echo '<script src="javascript/script.js"></script>';
+echo img('images/profile.png');
+echo img('images/basketball.png');
+echo link_tag('css/style.css');
+echo script_tag('javascript/script.js');
 ?>
